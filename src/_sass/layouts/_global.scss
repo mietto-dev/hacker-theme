@@ -8,6 +8,7 @@
   background-color: $color-bg;
   background-image: $image-background;
 }
+
 .container {
   top: 2%;
   height: 97%;
@@ -19,6 +20,7 @@
   box-sizing: border-box; // interior border
   background-color: rgba($color-postbg, 0.72);
 }
+
 .div_article {
   top: $header-height + 1px;
   height: 95%;
@@ -29,25 +31,31 @@
   @include thin_scrollbar;
   border: $secondary-border;
   border-top: none;
+  box-shadow: 0 1px 6px 0 rgb(255 16 92 / 0.9), inset 0 1px 6px 0 rgb(255 16 92 / 0.9);
+
   article {
     margin: 0;
     padding: 10px 19px 19px 19px;
     text-align: left !important;
-    min-height: 88%; 
+    min-height: 88%;
   }
+
   td {
-    border: $thin-border;  
+    border: $thin-border;
   }
+
   .encrypted {
     color: rgba($color-warning, 0.9);
     word-break: break-all;
   }
+
   .no-border {
     td {
       border: 1px solid rgba($color-postbg, 0);
     }
   }
 }
+
 // used to toggle absence of elements
 .show {
   visibility: visible !important;
@@ -65,20 +73,24 @@
     border: $thick-border;
     background-color: rgba($color-postbg, 0.7);
   }
+
   .page .container .div_article {
     border: none;
   }
 }
+
 @media screen and (max-width: 800px) and (min-width: 400px) {
   .page .container .div_article #main_atcl {
     padding: 12px 17px 17px 17px;
-  }  
+  }
 }
+
 @media screen and (max-width: 400px) {
   .page .container {
     border: $medium-border;
   }
+
   .page .container .div_article #main_atcl {
-    padding: 0px 5px 5px 5px ;
+    padding: 0px 5px 5px 5px;
   }
 }

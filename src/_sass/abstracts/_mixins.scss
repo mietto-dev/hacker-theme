@@ -3,6 +3,7 @@
     width: 4.5px;
     height: 4.5px;
   }
+
   &::-webkit-scrollbar-thumb {
     background-color: $color-primary;
   }
@@ -12,20 +13,34 @@
   & {
     text-decoration: none !important;
   }
+
   &:link {
-    font-style: normal !important ;
+    font-style: normal !important;
     text-decoration: none !important;
   }
+
   &:hover {
     text-decoration: none !important;
     font-weight: inherit;
     color: $color-secondary !important;
     cursor: pointer;
     text-shadow: 0 0 4px $color-secondary;
-  }  
+  }
 }
 
 @mixin fade_in {
   -webkit-animation: fadeIn 0.60s;
-  animation: fadeIn 0.60s;  
+  animation: fadeIn 0.60s;
+}
+
+@mixin text_glow($textColor) {
+  & {
+    text-shadow: 0px 0px 1px $textColor, 0px 0px 0px $textColor, 0px 0px 10px $textColor
+  }
+}
+
+@mixin hero_glow {
+  & {
+    text-shadow: 0px -2px 15px rgb(205, 20, 41), 0px 0px 0px rgb(205 20 41 / 30);
+  }
 }

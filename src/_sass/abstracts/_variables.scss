@@ -1,21 +1,27 @@
 // global variables
-$color-primary: rgb(84, 235, 24);
+// $color-primary: rgb(84, 235, 24);
+// $color-primary: rgb(255, 16, 92);
+$color-border: rgb(255, 16, 92);
+$color-hero: rgb(205 20 41);
+// $color-primary: rgb(16, 206, 117);
+$color-primary: rgb(250, 250, 250);
 $color-secondary: rgb(240, 188, 18);
-$color-blockquote: #e0ac3c;
+$color-blockquote: #f8e654;
 $color-warning: rgb(238, 63, 40);
 $color-bg: rgb(24, 17, 17);
 $color-postbg: rgb(0, 0, 0);
+$color-heading: rgb(69 193 255);
 $image-background: none;
 
 // font size
-$font-size-h1: 23px;
-$font-size-h2: 22px;
+$font-size-h1: 80px;
+$font-size-h2: 26px;
 $font-size-h3: 22px;
 $font-size-h4: 19.5px;
 $font-size-h5: 18.5px;
 $font-size-h6: 18px;
-$font-size-primary: 16px;
-$font-smaller: 93%;
+$font-size-primary: 20px;
+$font-smaller: 133%;
 $font-bigger: 108%;
 $blk-duration: 1.2s;
 $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
@@ -31,10 +37,10 @@ $collection-list-header-size: 30px;
 $global-section-margin: 4px;
 
 // standard border
-$thick-border: 2.1px solid $color-primary;
-$secondary-border: 1.35px solid rgba($color-primary, 0.87);
-$medium-border: 0.95px solid rgba($color-primary, 0.83);
-$thin-border: 0.5px solid rgba($color-primary, 0.6);
+$thick-border: 2.1px solid $color-border;
+$secondary-border: 1.35px solid rgba($color-border, 0.87);
+$medium-border: 0.95px solid rgba($color-border, 0.83);
+$thin-border: 0.5px solid rgba($color-border, 0.6);
 
 // syntax highlight
 $code-primary: $color-primary;

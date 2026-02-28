@@ -1,16 +1,51 @@
 // fonts
 @font-face {
-    font-family: "Fira Code Online";
-    src: url("../fonts/FiraCode-Regular.woff");
-  }
+  font-family: "Fira Code Online";
+  src: url("../fonts/FiraCode-Regular.woff");
+}
+
+@font-face {
+  font-family: 'hershey';
+  src: url('../fonts/AVHersheySimplexLight.otf') format('opentype');
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hershey';
+  src: url('../fonts/AVHersheySimplexMedium.otf') format('opentype');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hershey';
+  src: url('../fonts/AVHersheySimplexHeavy.otf') format('opentype');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hersheyDuplex';
+  src: url('../fonts/AVHersheyDuplexLight.otf') format('opentype');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'vectorBattle';
+  src: url('../fonts/Vectorb.ttf') format('truetype');
+  font-display: swap;
+
+}
 
 // font family
-$font-serif: Georgia, Times, serif, "Source Han Sans CN Medium", "PingFang SC",
-  "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei" !default;
-$font-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif, "Source Han Serif CN Medium",
-  "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei",
-  "WenQuanYi Micro Hei" !default;
+$font-sans-serif: hershey !default;
+$font-vector: vectorBattle !default;
+$font-duplex: hersheyDuplex !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 $font-monospace: "Fira Code", "Source Code Pro", "Fira Code Online", Monaco,
-  Consolas, "Lucida Console", monospace !default;  
+  Consolas, "Lucida Console", monospace !default;
