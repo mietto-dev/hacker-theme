@@ -12,7 +12,11 @@ encrypted_text: true
 permalink: /
 ---
 
-# PROJECT VeXEd - HACKER-STYLE PERSONAL HOMEPAGE
+<div style="display: flex; width: 100%; justify-content: space-between;">
+    <h1 id="bounty-hunter">BOUNTY HUNTER</h1>
+    <img src="{{site.url }}{{site.baseurl}}src/assets/img/bandit.png" alt="Logo" width="250" height="250" style="background-color: transparent; margin: 0;">
+</div>
+<!-- # BOUNTY HUNTER -->
 
 > pRoJEct-NeGYa is a hacker-like, highly-customizable theme for note-keeping, personal-website or CV.
 
